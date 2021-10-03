@@ -1,0 +1,132 @@
+@import url(//fonts.googleapis.com/earlyaccess/kopubbatang.css);
+
+body {
+    color: white;
+    font-family: 'KoPub Batang', serif;
+}
+
+#clock {
+    text-align: center;
+    position: absolute;
+    left: 25%;
+    top: 35%;
+    transform: translateX(-50%);
+    font-size: 80px;
+}
+
+#weather {
+    text-align: center;
+    position: absolute;
+    left: 25%;
+    top: 53%;
+    transform: translateX(-50%);
+    font-size: 20px;
+}
+
+#lyrics {
+    position: fixed;
+    top: 10%;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
+}
+
+#login-form input {
+    width: 300px;
+    height: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid white;
+    background-color: transparent;
+    text-align: center;
+    position: absolute;
+    left: 25%;
+    top: 60%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    color: white;
+    font-family: 'KoPub Batang', serif;
+}
+
+#greeting {
+    text-align: center;
+    position: absolute;
+    left: 25%;
+    top: 60%;
+    transform: translateX(-50%);
+}
+
+#todo-form input{
+    width: 300px;
+    height: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid white;
+    background-color: transparent;
+    text-align: center;
+    position: absolute;
+    left: 75%;
+    top: 35%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    color: white;
+    font-family: 'KoPub Batang', serif;
+}
+
+#todo-list {
+    width: 300px;
+    height: 50px;
+    list-style:none;
+    text-align: center;
+    position: absolute;
+    left: 74%;
+    top: 40%;
+    transform: translateX(-50%);
+    font-size: 22px;
+    color: white;
+    font-family: 'KoPub Batang', serif;
+}
+
+#todo-list li {
+    margin: 20px 0px;
+}
+
+#todo-list button {
+    text-align: end;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+#hyper button {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    background-color: transparent;
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+}
+
+#hyper img {
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+}
+
+.hidden {
+    display: none;
+}
+
+.check {
+    text-decoration: line-through;
+    color: gray;
+}
