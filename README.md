@@ -12,3 +12,5 @@ JS 챌린지 졸업작품
 github, JS보다 어렵다!!
 
 *화면 왼쪽 아래의 손을 클릭하면 BANA 공식 사이트로 이동.*
+
+https://2384320.github.io/first-js/
